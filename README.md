@@ -6,6 +6,8 @@
 **-Stack back: express - sequelize - postgresql**<br/>
 **-Stack front: react - tailwind - material ui - google maps api - redux - vite**<br/>
 <br/>
+<br/>
+<br/>
 **Formato .env**<br/>
 PORT=3001<br/>
 DB_USER=postgres<br/>
@@ -13,4 +15,3 @@ DB_PASSWORD=password<br/>
 DB_HOST=localhost<br/>
 DB_NAME=micole<br/>
 DB_PORT=5432<br/>
-
