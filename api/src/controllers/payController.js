@@ -1,4 +1,4 @@
-const { mercadopago } = require("../mercadoPago.js");
+/*const { mercadopago } = require("../mercadoPago.js");
 const { Colegio, Plan_Pago } = require("../db");
 const { NGROK_URL } = process.env;
 
@@ -66,3 +66,4 @@ const payController = async (req, res) => {
 };
 
 module.exports = payController;
+*/

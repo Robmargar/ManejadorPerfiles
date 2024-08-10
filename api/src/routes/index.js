@@ -45,7 +45,7 @@ router.use("/niveles", nivelRouter);
 router.use("/afiliaciones", afiliacionRouter);
 router.use("/citas", citaRouter);
 router.use("/reviews", reviewRouter);
-router.use("/payments", paymentRouter);
+//router.use("/payments", paymentRouter);
 router.use("/ventas", ventasRouter);
 router.use("/metodos", metodosRouter);
 router.use("/dificultades", dificultadesRouter);

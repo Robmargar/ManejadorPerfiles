@@ -1,4 +1,4 @@
-const { Router } = require("express");
+/*const { Router } = require("express");
 const payController = require("../controllers/payController");
 const { Colegio, Ventas, Plan_Pago } = require("../db.js");
 const mailer = require("../utils/sendMails/mailer");
@@ -141,3 +141,4 @@ router.post("/notification", async (req, res) => {
 router.post("/", payController);
 
 module.exports = router;
+*/
