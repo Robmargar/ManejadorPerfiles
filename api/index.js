@@ -8,7 +8,7 @@ const { jobs } = require("./src/controllers/vencimientoController");
 //const validacion = new CronJob(process.env.CRON_TIME, jobs);
 //validacion.start();
 
-conn.sync({ force: true }).then(() => {
+conn.sync({ force: false }).then(() => {
   //insertDistritos();
   server.listen(process.env.PORT, () => {
     console.log(`⇒ listening at port ${process.env.PORT}`);
